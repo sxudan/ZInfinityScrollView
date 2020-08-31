@@ -1,0 +1,6 @@
+framework module ZInfinityScrollView {
+  umbrella header "ZInfinityScrollView-umbrella.h"
+
+  export *
+  module * { export * }
+}

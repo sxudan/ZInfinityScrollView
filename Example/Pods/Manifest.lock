@@ -1,0 +1,16 @@
+PODS:
+  - ZInfinityScrollView (0.1.0)
+
+DEPENDENCIES:
+  - ZInfinityScrollView (from `../`)
+
+EXTERNAL SOURCES:
+  ZInfinityScrollView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZInfinityScrollView: c090f1941019f58e7bbdcaa664cef2c269b86d2a
+
+PODFILE CHECKSUM: d48d2c019fbb69859bdb809ffde37fb6a3aca356
+
+COCOAPODS: 1.9.3
