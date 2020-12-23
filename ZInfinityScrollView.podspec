@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/sxudan/ZInfinityScrollView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'sxudan' => 'sudan.suwal@spiralogics.com' }
+  s.author           = { 'sxudan' => 'sudosuwal@gmail.com' }
   s.source           = { :git => 'https://github.com/sxudan/ZInfinityScrollView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
