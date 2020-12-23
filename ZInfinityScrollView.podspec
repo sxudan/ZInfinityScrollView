@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  `ZInfinityScrollView is created for only one purpose and that is for the purpose for pagination. With ZInfinityScroll view, you can perform pagination quickly. ZInfinityScrollView is subclass of UIScrollView and uses UITableView for listing datas.`
                        DESC
 
   s.homepage         = 'https://github.com/sxudan/ZInfinityScrollView'
@@ -28,9 +28,18 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/sxudan/ZInfinityScrollView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'ZInfinityScrollView/Classes/**/*'
+  
+  s.ios.deployment_target = '12.0'
+    
+    s.swift_version = '5.0'
+    
+    s.platforms = {
+        "ios": "12.0"
+    }
+    
+    #  s.source_files = 'BottomSheet/Classes/**/*'
+    
+    s.source_files = 'Source/**/*'
   
   # s.resource_bundles = {
   #   'ZInfinityScrollView' => ['ZInfinityScrollView/Assets/*.png']
