@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--View Controller1-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="ZInfinityScrollView_Example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController1" customModule="ZInfinityScrollView_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -20,11 +20,72 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="99j-pC-f9f" customClass="ZInfinityView" customModule="ZInfinityScrollView">
+                                <rect key="frame" x="16" y="0.0" width="343" height="667"/>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="99j-pC-f9f" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="1gY-bz-7T3"/>
+                            <constraint firstItem="99j-pC-f9f" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="UEU-rU-kkj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="99j-pC-f9f" secondAttribute="trailing" id="iIX-eQ-hvG"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="99j-pC-f9f" secondAttribute="bottom" id="tPq-lB-NSV"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="zInfinityView" destination="99j-pC-f9f" id="kCg-kZ-RuW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="250" y="157"/>
+        </scene>
+        <!--View Controller2-->
+        <scene sceneID="G0U-yu-yYY">
+            <objects>
+                <viewController id="ffz-mV-3BN" customClass="ViewController2" customModule="ZInfinityScrollView_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5fb-6J-xpb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j3m-Go-uU7" customClass="ZInfinityScrollView" customModule="ZInfinityScrollView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="afv-x9-mEq" customClass="ZInfinityView" customModule="ZInfinityScrollView">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                    </scrollView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="afv-x9-mEq" secondAttribute="trailing" id="8DS-Dr-c9l"/>
+                                    <constraint firstItem="afv-x9-mEq" firstAttribute="leading" secondItem="j3m-Go-uU7" secondAttribute="leading" id="Xmo-rL-AXt"/>
+                                    <constraint firstItem="afv-x9-mEq" firstAttribute="top" secondItem="j3m-Go-uU7" secondAttribute="top" id="Zcm-zU-riB"/>
+                                    <constraint firstAttribute="bottom" secondItem="afv-x9-mEq" secondAttribute="bottom" id="lGN-bo-PfI"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="uqk-j9-frH"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="uqk-j9-frH" firstAttribute="bottom" secondItem="j3m-Go-uU7" secondAttribute="bottom" id="0cM-mg-qTE"/>
+                            <constraint firstItem="uqk-j9-frH" firstAttribute="trailing" secondItem="j3m-Go-uU7" secondAttribute="trailing" id="0oc-J1-SP8"/>
+                            <constraint firstItem="j3m-Go-uU7" firstAttribute="top" secondItem="uqk-j9-frH" secondAttribute="top" id="HKF-jr-fuy"/>
+                            <constraint firstItem="j3m-Go-uU7" firstAttribute="leading" secondItem="uqk-j9-frH" secondAttribute="leading" id="Tq7-hb-edD"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="zInfinityView" destination="afv-x9-mEq" id="ON8-kt-lqh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mJV-7P-GMO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1044" y="156.97151424287858"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

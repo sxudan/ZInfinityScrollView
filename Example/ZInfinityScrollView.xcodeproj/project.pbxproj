@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		5B326DED7EA458CAFA52F64A /* Pods_ZInfinityScrollView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B943E6281C23E778B28FBFD /* Pods_ZInfinityScrollView_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
+		607FACD81AFB9204008FA782 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController1.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		7698E17FDADED51814B5BC24 /* Pods_ZInfinityScrollView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 907F508C351E9DE28C740A2D /* Pods_ZInfinityScrollView_Example.framework */; };
+		CEA39AA725622AE9002BF3DD /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA39AA625622AE9002BF3DD /* ViewController2.swift */; };
+		CEA39AAE256230C3002BF3DD /* collectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA39AAC256230C3002BF3DD /* collectionViewCell.swift */; };
+		CEA39AAF256230C3002BF3DD /* collectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA39AAD256230C3002BF3DD /* collectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,12 +34,12 @@
 		00B866B10D33CF14F9F08C89 /* Pods-ZInfinityScrollView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZInfinityScrollView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZInfinityScrollView_Tests/Pods-ZInfinityScrollView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		01BC3220D339B837877B4095 /* Pods-ZInfinityScrollView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZInfinityScrollView_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZInfinityScrollView_Example/Pods-ZInfinityScrollView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0B943E6281C23E778B28FBFD /* Pods_ZInfinityScrollView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZInfinityScrollView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1512EBE3E513D9B2E7AD5A0D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		31A62EAFDB8FE6A10B2A4F6A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1512EBE3E513D9B2E7AD5A0D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		31A62EAFDB8FE6A10B2A4F6A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ZInfinityScrollView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZInfinityScrollView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		607FACD71AFB9204008FA782 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -45,7 +48,10 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		609383DBBD62F89C15F393FF /* Pods-ZInfinityScrollView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZInfinityScrollView_Example.release.xcconfig"; path = "Target Support Files/Pods-ZInfinityScrollView_Example/Pods-ZInfinityScrollView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		907F508C351E9DE28C740A2D /* Pods_ZInfinityScrollView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZInfinityScrollView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABA415AABDD137514DD6A0B5 /* ZInfinityScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZInfinityScrollView.podspec; path = ../ZInfinityScrollView.podspec; sourceTree = "<group>"; };
+		ABA415AABDD137514DD6A0B5 /* ZInfinityScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZInfinityScrollView.podspec; path = ../ZInfinityScrollView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CEA39AA625622AE9002BF3DD /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		CEA39AAC256230C3002BF3DD /* collectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = collectionViewCell.swift; sourceTree = "<group>"; };
+		CEA39AAD256230C3002BF3DD /* collectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = collectionViewCell.xib; sourceTree = "<group>"; };
 		EB620750E0D9243227C53995 /* Pods-ZInfinityScrollView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZInfinityScrollView_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZInfinityScrollView_Tests/Pods-ZInfinityScrollView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +83,6 @@
 				00B866B10D33CF14F9F08C89 /* Pods-ZInfinityScrollView_Tests.debug.xcconfig */,
 				EB620750E0D9243227C53995 /* Pods-ZInfinityScrollView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -114,8 +119,10 @@
 		607FACD21AFB9204008FA782 /* Example for ZInfinityScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				CEA39AAA2562307C002BF3DD /* custom cells */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				CEA39AA625622AE9002BF3DD /* ViewController2.swift */,
+				607FACD71AFB9204008FA782 /* ViewController1.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -158,6 +165,23 @@
 				31A62EAFDB8FE6A10B2A4F6A /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		CEA39AAA2562307C002BF3DD /* custom cells */ = {
+			isa = PBXGroup;
+			children = (
+				CEA39AAB25623091002BF3DD /* collectionview cell */,
+			);
+			name = "custom cells";
+			sourceTree = "<group>";
+		};
+		CEA39AAB25623091002BF3DD /* collectionview cell */ = {
+			isa = PBXGroup;
+			children = (
+				CEA39AAC256230C3002BF3DD /* collectionViewCell.swift */,
+				CEA39AAD256230C3002BF3DD /* collectionViewCell.xib */,
+			);
+			name = "collectionview cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,10 +237,13 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = ZYSBH6Y8HY;
 						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = ZYSBH6Y8HY;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +254,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -248,6 +276,7 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				CEA39AAF256230C3002BF3DD /* collectionViewCell.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,8 +360,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				607FACD81AFB9204008FA782 /* ViewController1.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				CEA39AAE256230C3002BF3DD /* collectionViewCell.swift in Sources */,
+				CEA39AA725622AE9002BF3DD /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +450,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +496,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -478,13 +509,17 @@
 			baseConfigurationReference = 01BC3220D339B837877B4095 /* Pods-ZInfinityScrollView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZYSBH6Y8HY;
 				INFOPLIST_FILE = ZInfinityScrollView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -493,13 +528,17 @@
 			baseConfigurationReference = 609383DBBD62F89C15F393FF /* Pods-ZInfinityScrollView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZYSBH6Y8HY;
 				INFOPLIST_FILE = ZInfinityScrollView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -507,6 +546,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 00B866B10D33CF14F9F08C89 /* Pods-ZInfinityScrollView_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = ZYSBH6Y8HY;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -529,6 +569,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EB620750E0D9243227C53995 /* Pods-ZInfinityScrollView_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = ZYSBH6Y8HY;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
