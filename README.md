@@ -62,10 +62,6 @@ ZInfinityScrollView is created for only one purpose and that is for the purpose 
         /**API calls here*/
         getData(page: page, handler: nil)
         }
-        
-        func zInfinityView(startPaginationOffset zInfinityView: ZInfinityView) -> CGFloat {
-        return 12
-        }
         }
 
 
