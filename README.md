@@ -8,6 +8,10 @@
 ## About `ZInfinityScrollView`
 ZInfinityScrollView is created for only one purpose and that is for the purpose for pagination. With ZInfinityScroll view, you can perform pagination quickly. ZInfinityScrollView is subclass of UIScrollView and uses UITableView for listing datas.
 
+## Example
+
+<img src="https://user-images.githubusercontent.com/31989781/102995327-e9f45d80-4548-11eb-93fe-b95b71fa7566.gif"/>
+
 ## Documentation
 
 1.  Add a UIScrollView in storyboard and make it of class ZInfinityView and add a outlet to a viewcontroller.
@@ -61,10 +65,6 @@ ZInfinityScrollView is created for only one purpose and that is for the purpose 
         func zInfinityView(zInfinityView: ZInfinityView, didPaginateTo page: Int) {
         /**API calls here*/
         getData(page: page, handler: nil)
-        }
-        
-        func zInfinityView(startPaginationOffset zInfinityView: ZInfinityView) -> CGFloat {
-        return 12
         }
         }
 
